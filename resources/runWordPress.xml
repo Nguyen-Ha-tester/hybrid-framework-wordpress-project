@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite  name="NopCommerce">
+ <listeners>
+ <listener class-name="reportConfig.AllureTestListener"/> 
+ </listeners> 
+ 
+ <parameter name ="urlAdmin" value="http://localhost/wp-admin/"/>
+ <parameter name ="urlUser" value="http://localhost/"/>
+ <parameter name ="browser" value ="h_chrome"/>
+ 
+  <test name="Run on Chrome">
+    <packages>
+      <package name="com.wordpress.admin"/>
+    </packages>
+  </test> 
+   
+</suite> 

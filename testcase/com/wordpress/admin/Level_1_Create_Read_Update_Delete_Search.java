@@ -39,7 +39,7 @@ public class Level_1_Create_Read_Update_Delete_Search extends BaseTest {
 		log.info("Post_01 - Step 03: Enter to post title");
 		log.info("Post_01 - Step 04: Enter to post body");
 		log.info("Post_01 - Step 05: Click to publish button");
-		log.info("Post_01 - Step 06: Verify post published successfully");
+		log.info("Post_01 - Step 06: Verify post published successfully ");
 
 	}
 
